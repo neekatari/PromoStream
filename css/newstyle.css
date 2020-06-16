@@ -1,0 +1,324 @@
+body {
+    margin:0;
+    padding:0;
+    font-family:sans-serif;
+    color: black;
+     
+    
+}
+
+
+
+.pname {
+    color: black;
+    font-size: 40px;
+}
+
+
+
+
+
+.mainbody{
+    background:none;
+
+}
+
+.btnlog {
+    
+
+    color: White;
+    font-style: normal;
+    margin-top: -2px;
+    margin-right: 10px;
+    border-radius: 12px;
+    transition: 0.5s;
+    text-anchor: middle;
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    margin-top: -10px;
+    margin-left: 400px
+}
+
+
+h1 {
+    color: white;
+    text-align: left;
+    margin-left: 50px;
+    margin-bottom: 10px;
+    transition: 0.3s;
+    font-size:30px;
+}
+
+
+h1:hover{
+    color:orangered;
+}
+
+.btnlog:hover {
+    background-color: white;
+    color: orangered;
+    font-size: 15px;
+    box-shadow: 1px 1px 1px 1px #ef5734;
+}
+
+.btnregi:hover {
+    
+    background-color: white;
+    color: orangered;
+    font-size: 15px;
+    box-shadow: 1px 1px 1px 1px #ef5734;
+}
+
+.btnregi {
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    margin-top: -10px;
+    margin-right: 50px;
+    border: none;
+    color: White;
+    font-style: normal;
+    margin-top: -2px;
+    border-radius: 12px;
+    transition: 0.3s;
+}
+
+.txtbox {
+    height: 30px;
+    width: 150px;
+    border: 1px solid #ef5734;
+    background-color: white;
+    color: #ef5734;
+    font-size:14px;
+    transition: 0.3s;
+}
+
+.otpbutton {
+    margin-left: 48px;
+    margin-top:30px;
+    background-color: orangered;
+    border: none;
+    border-radius: 10px;
+    color:white;
+    transition:0.5s;
+}
+
+.otpbutton:hover{
+    background-color:white;
+    color:orangered;
+    font-size:16px;
+    box-shadow: 1px 3px 1px 2px orangered;
+
+}
+
+.txtotp{
+    margin-top:30px;
+    margin-left:46px;
+    border-color:orangered;
+    border-radius:10px;
+    font-size:20px;
+    text-align:center;
+
+}
+
+.main{
+    padding:60px 150px;
+    background: rgba(0,0,0,0.5);
+    top:50%;
+    left:50%;
+    width:600px;
+    height:400px;
+    position:absolute;
+    transform:translate(-50%,-50%);
+    box-sizing:border-box;
+    border-radius:60px;
+    
+}
+
+h2{
+    margin-left:35px;
+   
+}
+hr{
+    background-color:white;
+    width:307px;
+    height:0.5px;
+}
+
+.w3_navigationtop {
+    background: #021523;
+    font-size: 26px;
+    height: 74px;
+    position: fixed !important;
+    width: 100%;
+    z-index: 1;
+}
+
+.w3_navigationtop > h1{
+    font-size:32px;
+    margin-top:18px;
+}
+
+.w3_navigationbottom {
+    background: #021523;
+    position: fixed;
+    width: 13%;
+    bottom: 0;
+    height: 60px;
+    float: left;
+    height: 92.7%;
+    margin-top:74px;
+    color:white;
+}
+
+
+
+
+.buttonleft {
+    color:white;
+    width: 100%;
+    border: none;
+    height: 60px;
+    font-size: 20px;
+    background-color: #021523;
+    
+}
+.buttonleft:hover {
+    background-color: orangered;
+    margin-left:6px;
+    color:white;
+}
+
+.active {
+    background-color: orangered;
+    margin-left: 6px;
+    color: white;
+}
+
+.txtsearch{
+    border: 1.5px solid orangered;
+    width: 500px;
+    margin-left:250px;
+    height:34px;
+    border-radius:10px;
+    background-color:transparent;
+    overflow:hidden;
+
+    
+}
+
+
+input::-webkit-input-placeholder {
+    color: orangered !important;
+}
+
+input:-moz-placeholder { /* Firefox 18- */
+    color: orangered !important;
+}
+
+input::-moz-placeholder { /* Firefox 19+ */
+    color: orangered !important;
+}
+
+input:-ms-input-placeholder {
+    color: orangered !important;
+}
+
+.mainbutton{
+    border:none;
+    color: white;
+    background-color:orangered;
+    width:200px;
+    height:34px;
+    margin-left:20px;
+    border-radius:10px;
+    margin-right:200px;
+    
+}
+.mainbutton:hover{
+    color:orangered;
+    background-color:white;
+}
+ul {
+    list-style-type: none;
+   }
+
+.w3_navigationtop > ul > li{
+    float:left;
+    margin-top:20px;
+    font-size:26px;
+    
+
+}
+
+
+
+.buttonlogin{
+    height: 44px;
+    width: 100%;
+    background-color:orangered;
+}
+
+
+
+
+.upimage{
+    margin-top:0;
+    background-color:white;
+    height:70px;
+    width:400px;
+    z-index:-1;
+}
+
+.maincontent{
+    background-attachment:fixed;
+    background-color:white;
+    width:1640px;
+    margin-left:200px;
+}
+
+.newupimage {
+    margin-top: 0px;
+    background-color:white;
+    height: 250px;
+    width: 100%;
+    margin-right: 100px;
+    align-content: center;
+}
+
+.propic{
+    margin-top:150px;
+    margin-right:180px;
+
+}
+
+
+
+
+.navname {
+    font-size: 22px;
+    margin-left: 200px;
+    margin-top: 20px;
+    color: white;
+}
+
+
+pall{
+    height:500px;
+    width:500px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

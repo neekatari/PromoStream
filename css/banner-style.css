@@ -1,0 +1,148 @@
+/*--gallery-- */
+.column {
+	margin: 15px 15px 0;
+	padding: 0;
+}
+.column:last-child {
+	padding-bottom: 60px;
+}
+.column::after {
+	content: '';
+	clear: both;
+	display: block;
+}
+.column div {
+	position: relative;
+	float: left;
+	width: 300px;
+	height: 200px;
+	margin: 0 0 0 25px;
+	padding: 0;
+}
+.column div:first-child {
+	margin-left: 0;
+}
+.column div span {
+	position: absolute;
+	bottom: -20px;
+	left: 0;
+	z-index: -1;
+	display: block;
+	width: 300px;
+	margin: 0;
+	padding: 0;
+	color: #444;
+	font-size: 18px;
+	text-decoration: none;
+	text-align: center;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+	opacity: 0;
+}
+figure {
+	width:100%;
+	height:auto;
+	margin: 0;
+	padding: 0;
+	background: #fff;
+	overflow: hidden;
+}
+figure:hover+span {
+	bottom: -36px;
+	opacity: 1;
+}
+.gallery_effect img {
+    width: 100%;
+}
+/* Gray Scale */
+.hover08 figure img {	
+	-webkit-filter: grayscale(100%);
+	-moz-filter: grayscale(100%);
+	-ms-filter: grayscale(100%);
+	-o-filter: grayscale(100%);
+	filter: grayscale(100%);
+	-ms-transition:.3s ease-in-out;
+	-moz-transition:.3s ease-in-out;
+   -webkit-transition:.3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.hover08 figure:hover img {
+	-webkit-filter: grayscale(0);
+	-moz-filter: grayscale(0);
+	-o-filter: grayscale(0);
+	-ms-filter: grayscale(0);
+	filter: grayscale(0);
+}
+.gallery_effect {
+    padding: 10px;
+    background: #fff;
+    margin: 0px 0px 10px 10px;
+}
+.lost-wall .gallery_effect {
+    margin: 0px 0px 10px 0px;
+}
+/*--//gallery-- */
+
+@media(max-width:1080px){
+	.gallery_effect {
+        padding: 4px;
+        background: #fff;
+        margin: 0px 0px 10px 10px;
+    }
+}
+@media(max-width:1050px){
+	
+}
+@media(max-width:1024px){
+	
+}
+@media(max-width:991px){
+	
+}
+@media(max-width:900px){
+	
+}
+@media(max-width:800px){
+	
+}
+@media(max-width:768px){
+	
+}
+@media(max-width:767px){
+	
+}
+@media(max-width:736px){
+	
+}
+@media(max-width:667px){
+	
+}
+@media(max-width:640px){
+	
+}
+@media(max-width:600px){
+	
+}
+@media(max-width:568px){
+	
+}
+@media(max-width:480px){
+	
+}
+@media(max-width:440px){
+	
+}
+@media(max-width:414px){
+	
+}
+@media(max-width:384px){
+	
+}
+@media(max-width:375px){
+	
+}
+@media(max-width:320px){
+	
+}
+/*--//responsive--*/
+

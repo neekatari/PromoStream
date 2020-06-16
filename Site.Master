@@ -1,0 +1,151 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Site.master.cs" Inherits="SiteMaster" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head runat="server">
+    <title>PROMOSTREAM</title>
+    <!-- Meta tag Keywords -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8" />
+    <meta name="keywords" content="Photowall Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+    <script>
+        addEventListener("load", function () {
+            setTimeout(hideURLbar, 0);
+        }, false);
+
+        function hideURLbar() {
+            window.scrollTo(0, 1);
+        }
+    </script>
+    <!-- //Meta tag Keywords -->
+
+    <!-- Custom-Files -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <!-- Bootstrap-Core-CSS -->
+    <link rel="stylesheet" href="css/lightbox.css">
+    <!-- Banner-Slider-CSS -->
+    <link rel="stylesheet" href="css/banner-style.css">
+    <link rel="stylesheet" href="css/aos.css">
+    <link href='css/aos-animation.css' rel='stylesheet prefetch' type="text/css" media="all" />
+    <!-- owl carousel -->
+    <link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+    <!-- Style-CSS -->
+    <link rel="stylesheet" href="css/fontawesome-all.css">
+    <!-- Font-Awesome-Icons-CSS -->
+    <link href="//fonts.googleapis.com/css?family=Dosis:200,300,400,500,600,700" rel="stylesheet">
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+         
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form runat="server">
+            <section class="content-main-w3" id="home">
+        <!--/nav-->
+        <div class="header_top_w3ls">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <button class="navbar-toggler navbar-toggler-right mx-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+
+               <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                     <ul class="navbar-nav mx-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="Default.aspx">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="login.aspx">Login</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="reg.aspx">Register</a>
+                        </li>
+
+                    </ul>
+                </div>
+
+            </nav>
+            <div class="logo-wthree text-center">
+                <a class="navbar-brand" href="index.html">
+				 P R O M O S T R E A M <span> Make Memories</span></a>
+            </div>
+
+        </div>
+            <asp:ContentPlaceHolder ID="MainContent" runat="server">
+                
+
+            </asp:ContentPlaceHolder>
+            <footer class="mt-lg-5 mt-3">
+             <div class="social_media_w3layouts text-center">
+           <ul class="social-icons justify-content-center mt-md-5 mt-3">
+                                <li class="mr-1"><a href="#"><span class="fab fa-facebook-f"></span></a></li>
+                                <li class="mx-1"><a href="#"><span class="fab fa-twitter"></span></a></li>
+                                <li class="mx-1"><a href="#"><span class="fab fa-google-plus-g"></span></a></li>
+                                <li class="mx-1"><a href="#"><span class="fab fa-linkedin-in"></span></a></li>
+                            </ul>
+            <p class="copy-right-w3ls my-3">© 2018 Promostream. All rights reserved | Design by <a href="#">Promostream</a></p>
+        </div>
+        </footer>
+    </section>
+    
+      
+    
+    </form>
+<!--//footer-->
+    <script src="js/jquery-2.2.3.min.js"></script>
+     <script src='js/aos.js'></script>
+    <script>
+        AOS.init({
+            easing: 'ease-out-back',
+            duration: 1000
+        });
+    </script>
+
+    <!--  light box js -->
+    <script src="js/lightbox-plus-jquery.min.js">
+    </script>
+    <!-- //light box js-->
+  <!--/ start-smoth-scrolling -->
+    <script src="js/move-top.js"></script>
+    <script src="js/easing.js"></script>
+    <script>
+        jQuery(document).ready(function ($) {
+            $(".scroll").click(function (event) {
+                event.preventDefault();
+                $('html,body').animate({
+                    scrollTop: $(this.hash).offset().top
+                }, 900);
+            });
+        });
+    </script>
+    <script>
+        $(document).ready(function () {
+            /*
+            var defaults = {
+            containerID: 'toTop', // fading element id
+            containerHoverID: 'toTopHover', // fading element hover id
+            scrollSpeed: 1200,
+            easingType: 'linear' 
+            };
+            */
+
+            $().UItoTop({
+                easingType: 'easeOutQuart'
+            });
+
+        });
+    </script>
+    <!--// end-smoth-scrolling -->
+
+    <!-- //js -->
+
+    <script src="js/bootstrap.js"></script>
+        
+    </form>
+</body>
+</html>

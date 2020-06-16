@@ -1,0 +1,49 @@
+﻿body {
+    background-image: url('../images/otp.jpg');
+}
+
+.main {
+    
+    background: rgba(0,0,0,0.5);
+    top: 50%;
+    left: 50%;
+    width: 600px;
+    height: 400px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    border-radius: 20px;
+}
+
+.txt{
+    margin-top:10px;
+    border:none;
+    margin-left:150px;
+    height:40px;
+    width:300px;
+    font-size:20px;
+   
+}
+
+h1 {
+    color: white;
+    text-align: left;
+    margin-left: 220px;
+    margin-bottom: 30px;
+    transition: 0.5s;
+}
+
+
+    h1:hover {
+        color: orangered;
+    }
+
+.buttonlogin{
+    margin-top: 30px;
+    margin-left: 150px;
+    border: none;
+    background-color: orangered;
+    color: white;
+    height: 40px;
+    width: 300px;
+}

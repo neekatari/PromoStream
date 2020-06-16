@@ -1,0 +1,105 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="final.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>PROMOSTREAM</title>
+    
+
+<link href="css/JiSlider.css" rel="stylesheet"> 
+
+<link href="css/style.css" rel="stylesheet" media="all" />
+<link href="css/newstyle.css" rel="stylesheet" type="text/css"/>
+<!-- font-awesome-icons -->
+<link href="css/font-awesome.css" rel="stylesheet"> 
+<!-- //font-awesome-icons -->
+<link href="//fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+<link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+       
+    </asp:ContentPlaceHolder>
+</head>
+<body class="mainbody"> 
+
+    <form id="form1" runat="server">
+        <div>
+              <div class="w3_navigationtop" style="z-index:2;"  >
+                  <ul>
+                    <li>
+					<h1 style="margin-left:30px; font-size:30px;font-family:sans-serif; ">P R O M O S T R E A M</h1>
+                    </li>
+                    <li>
+                    <asp:TextBox runat="server" ID="txtsearch" CssClass="txtsearch" placeholder=" Search User Here" ></asp:TextBox>
+                    </li>
+                    <li>
+                        <asp:Button runat="server" ID="btnsearch" CssClass="mainbutton" Text="Search" OnClick="btnsearch_Click" />
+                    </li>
+                   </ul>
+                    <div style="margin-top:24px; color:white; font-size:20px; text-align:right; margin-right:30px;">
+                       <asp:Label runat="server" id="lblname"></asp:Label>
+                    </div>
+                
+                  
+			  </div>
+              
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    
+                    </asp:ContentPlaceHolder>
+
+                
+   
+	    </div>
+
+              <div class="w3_navigationbottom">
+                   <asp:Button ID="op" runat="server" Text="Options" CssClass="buttonleft firstb active" ForeColor="White" />
+                 <asp:Button ID="home" runat="server" Text="Home" CssClass="buttonleft firstb" ForeColor="White" OnClick="home_Click" />
+                 <asp:Button ID="Button2" runat="server" Text="Upload Photo" CssClass="buttonleft" ForeColor="White" OnClick="Button2_Click" />
+                 <asp:Button ID="Button3" runat="server" Text="Notification" CssClass="buttonleft" ForeColor="White" OnClick="Button3_Click" />
+                 <asp:Button ID="Button4" runat="server" Text="Profile" CssClass="buttonleft" ForeColor="White" OnClick="Button4_Click" />
+                  <asp:Button ID="changepass" runat="server" Text="Change Password" CssClass="buttonleft" ForeColor="White" OnClick="changepass_Click" />
+                 <asp:Button ID="Button1" runat="server" Text="Logout" CssClass="buttonleft" ForeColor="White" OnClick="Button1_Click" />
+
+
+             </div>
+        
+              
+
+    </form>         
+         <!-- <div>
+
+            <div class="w3_navigation">
+		<div class="flut-container">
+			<nav class="navbar navbar-default">
+				<div class="navbar-header navbar-left">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+                </div>
+              <div class="w3_navigationbottom" style="position: fixed;" >	
+					<div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
+					<nav class="menu menu--iris">
+						<ul class="nav navbar-nav menu__list">
+                           <br />
+                            <br />
+							<li class="menu__item"><a href="#" class="menu__link" >Home</a></li><br/><br /><br /><br />
+							<li class="menu__item"><a href="#about" class="menu__link scroll">Search</a></li><br/><br /><br /><br />
+							<li class="menu__item"><a href="#contact" class="menu__link scroll"  >Upload Photo </a></li><br/><br /><br /><br />
+                            <li class="menu__item"><a href="#contact" class="menu__link scroll" >Notification</a></li><br/><br /><br /><br />
+                            <li class="menu__item"><a href="#contact" class="menu__link scroll" >Profile</a></li>  
+                        </ul>
+                       </nav>
+                      </div>
+
+			  </div>
+                </nav>
+            </div>
+                 </div>
+	    </div>-->
+       
+</body>     
+</html>
